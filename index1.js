@@ -1,4 +1,4 @@
-// Prompt input student marks
+// Prompt Input student marks
 const marks = marks ("student marks ( 0 to 100):");
 // Convert the input to a number
 const marksNumber = Number(marks);
@@ -21,3 +21,4 @@ else if (marksNumber >= 60 && marksNumber <= 79) {
   }
 //To get the Output of the grade
 console.log("Grade:", grade);
+
