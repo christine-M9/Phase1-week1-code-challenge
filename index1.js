@@ -22,3 +22,6 @@ else if (marksNumber >= 60 && marksNumber <= 79) {
 //To get the Output of the grade
 console.log("Grade:", grade);
 
+//on the terminal run node index1.js
+
+
