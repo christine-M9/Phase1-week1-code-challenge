@@ -21,3 +21,5 @@ console.log("Points:", demeritPoints);
 if (demeritPoints > pointsGiven) {
   console.log("License suspended");
 }
+
+// run node index2.js on the terminal
