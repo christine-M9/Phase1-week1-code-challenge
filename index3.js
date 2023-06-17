@@ -11,4 +11,13 @@ function calculatePAYE(annualSalary) {
     }
   }
 
-  
+  //Calculating NSSF 
+function calculateNSSF(grossPay) {
+    if (grossPay <= 6000) {
+      return 0.06 * grossPay;
+    } else if (grossPay <= 18000) {
+      return  0.06 * (grossPay - 6000);
+    } else {
+      return  0.06 * 12000;
+    }
+  }
