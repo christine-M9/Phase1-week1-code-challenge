@@ -1,9 +1,9 @@
 # Phase1-week1-code-challenge
 
-  # Title
+  # Title:
 Phase1-week1-code-challenge.
 
-   ## Description
+   ## Description:
 Challenge 1: Student Grade Generator (Toy Problem)
 Write that prompts the user to input student marks. The input should be between 0 and 100. Then output the correct grade: 
 
@@ -27,13 +27,13 @@ https://www.aren.co.ke/payroll/taxrates.htmLinks to an external site.
 https://www.kra.go.ke/en/individual/calculate-tax/calculating-tax/payeLinks to an external site.
 
 
-   ## Project set-up
+   ## Project set-up:
 Solutions to the week one code challenge.They are named index1,index2 and index3 in a Js file.
 <!-- For each challenge,run node index.js .Remember to include the number responsible for each test. -->
 For example; the first test run node index1.js when using the terminal.
 
 
 
-   ## Author and License
+   ## Author and License:
    [Christine-M9]
    (https://github.com/christine-M9)

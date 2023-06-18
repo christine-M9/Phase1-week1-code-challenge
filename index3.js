@@ -1,4 +1,4 @@
-//Calculating NHIF deductions
+//Calculating NHIF deductions;
 
 function calculateDeduction(grossPay) {
 

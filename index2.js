@@ -1,4 +1,4 @@
-// The speed of the car[defining speed]
+// The speed of the car[defining speed];
 const speed = speed("car's speed");
 
 // Change the input to a number[defining speedNumber]

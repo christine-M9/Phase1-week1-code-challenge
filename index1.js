@@ -1,4 +1,4 @@
-// Prompt Input student marks
+// Prompt Input student marks;
 const marks = marks ("student marks ( 0 to 100):");
 const marksNumber = Number(marks); //defining marksNumber
 
