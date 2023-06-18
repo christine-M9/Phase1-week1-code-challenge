@@ -1,8 +1,7 @@
 // Prompt Input student marks
 const marks = marks ("student marks ( 0 to 100):");
-// Convert the input to a number
-const marksNumber = Number(marks);
-// Confirm the grade based on the marks given
+const marksNumber = Number(marks); //defining marksNumber
+// Confirm the grade
 let grade;
 if (marksNumber > 79) {
   grade = "A";
@@ -19,7 +18,7 @@ else if (marksNumber >= 60 && marksNumber <= 79) {
   else {
     grade = "E";
   }
-//To get the Output of the grade
+//Output of the grade
 console.log("Grade:", grade);
 
 //on the terminal run node index1.js
