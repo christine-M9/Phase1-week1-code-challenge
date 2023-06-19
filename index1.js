@@ -1,7 +1,9 @@
 // Prompt Input student marks;
 const marks = marks("student marks(0 t0 100:");
-const marksGrade = Number(marks); //defining marksGrade
 
+
+ //defining marksGrade
+const marksGrade = Number(marks);
 let grade;
      if (marksGrade > 79 && marksGrade <=100) {
   grade = "A";
@@ -23,7 +25,7 @@ let grade;
     grade = "E";
   }
 
-  
+
   else   { 
       grade = "Invalid marks"; }
     

@@ -4,7 +4,7 @@
 Phase1-week1-code-challenge.
 
    ## Description:
-   The Js files contains the three code challenge solutions;
+   The index Js files contains the three code challenge solutions;
 
 ## Challenge 1: Student Grade Generator (Toy Problem)
 Write that prompts the user to input student marks. The input should be between 0 and 100. Then output the correct grade: 

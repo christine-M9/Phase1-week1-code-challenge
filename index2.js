@@ -11,7 +11,7 @@ const pointsGiven = 12;
 // Calculating the demerit points;
 let demeritPoints = 0;
 
-if (speedPace < 70){
+if (speedPace < 70)   {
       console.log( "0K");
 }
    else  if (speedPace > speedLimit) {

@@ -162,6 +162,7 @@ let benefits = parseInt("Benefits");
 
 calculateNetSalary(salary, benefits);
 
+
 // run node index3.js on terminal
 
 
