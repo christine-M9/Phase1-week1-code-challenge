@@ -1,25 +1,28 @@
-// The speed of the car[defining speed];
+// The speed of the car
 const speed = speed("car's speed");
 
-// Change the input to a number[defining speedNumber]
-const speedNumber = Number(speed);
+//defining speedPace;
+const speedPace = Number(speed);
 
-// Speed limit and points given
+// Speed limit and points given;
 const speedLimit = 70;
 const pointsGiven = 12;
 
-// Calculating the demerit points
+// Calculating the demerit points;
 let demeritPoints = 0;
 
-     if (speedNumber > speedLimit) {
-         const speedAboveLimit = speedNumber - speedLimit;
+if (speedPace < 70){
+      console.log( "0K");
+}
+   else  if (speedPace > speedLimit) {
+         const speedAboveLimit = speedPace - speedLimit;
          demeritPoints = Math.floor(speedAboveLimit / 5);
 }
 
-// Output the demerit points
+// Output the demerit points;
       console.log("Points:", demeritPoints);
 
-// Confirm if license to be suspended
+// Confirm if license to be suspended;
 if (demeritPoints > pointsGiven) {
          console.log("License suspended");
 }

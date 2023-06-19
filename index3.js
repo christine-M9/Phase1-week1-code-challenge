@@ -1,88 +1,88 @@
 //Calculating NHIF deductions;
 
-function calculateDeduction(grossPay) {
+function calculateDeduction(grossNet) {
 
   let deduction = 0;
 
-  if (grossPay <=5999 )
+  if (grossNet <=5999 )
    {
          deduction = 150;
   }
-   else if (grossPay >= 6000 && grossPay <= 7999) {
+   else if (grossNet >= 6000 && grossNet <= 7999) {
 
           deduction = 300;
 
   } 
-  else if (grossPay >= 8000 && grossPay <= 11999) {
+  else if (grossNet >= 8000 && grossNet <= 11999) {
 
           deduction = 400;
 
   }
-   else if (grossPay >= 12000 && grossPay <= 14999) {
+   else if (grossNet >= 12000 && grossNet <= 14999) {
 
           deduction = 500;
 
   } 
-  else if (grossPay >= 15000 && grossPay <= 19999) {
+  else if (grossNet >= 15000 && grossNet <= 19999) {
 
          deduction = 600;
 
   } 
-  else if (grossPay >= 20000 && grossPay <= 24999) {
+  else if (grossNet >= 20000 && grossNet <= 24999) {
 
           deduction = 750;
 
   } 
-  else if (grossPay >= 25000 && grossPay <= 29999) {
+  else if (grossNet >= 25000 && grossNet <= 29999) {
 
           deduction = 850;
 
   }
-   else if (grossPay >= 30000 && grossPay <= 34999) {
+   else if (grossNet >= 30000 && grossNet <= 34999) {
 
           deduction = 900;
 
   }
-   else if (grossPay >= 35000 && grossPay <= 39999) {
+   else if (grossNet >= 35000 && grossNet <= 39999) {
 
           deduction = 950;
 
   }
-   else if (grossPay >= 40000 && grossPay <= 44999) {
+   else if (grossNet >= 40000 && grossNet <= 44999) {
 
           deduction = 1000;
 
   }
-   else if (grossPay >= 45000 && grossPay <= 49999) {
+   else if (grossNet >= 45000 && grossNet <= 49999) {
 
           deduction = 1100;
 
   } 
-  else if (grossPay >= 50000 && grossPay <= 59999) {
+  else if (grossNet >= 50000 && grossNet <= 59999) {
 
          deduction = 1200;
 
-  } else if (grossPay >= 60000 && grossPay <= 69999) {
+  } else if (grossNet >= 60000 && grossNet <= 69999) {
 
          deduction = 1300;
 
   } 
-  else if (grossPay >= 70000 && grossPay <= 79999) {
+  else if (grossNet >= 70000 && grossNet <= 79999) {
 
          deduction = 1400;
 
   } 
-  else if (grossPay >= 80000 && grossPay <= 89999) {
+  else if (grossNet >= 80000 && grossNet <= 89999) {
 
          deduction = 1500;
 
   } 
-  else if (grossPay >= 90000 && grossPay <= 99999) {
+  else if (grossNet >= 90000 && grossNet <= 99999) {
 
          deduction = 1600;
 
   } 
-  else if (grossPay >= 100000) {
+  else if (grossNet >= 100000) {
 
         deduction = 1700;
 
@@ -135,9 +135,9 @@ function calculateRate(monthlyTaxPay) {
 
   let deductTax = calculateRate(monthlyTaxPay)
 
-  let grossPay = salary - ((deductTax / 100) * salary)
+  let grossNet = salary - ((deductTax / 100) * salary)
 
-  let deductNhif = calculateDeduction(grossPay)
+  let deductNhif = calculateDeduction(grossNet)
 
   let pay = salary - ((deductTax / 100) * salary) - deductNhif
 
