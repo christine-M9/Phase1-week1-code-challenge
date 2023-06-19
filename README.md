@@ -36,7 +36,7 @@ For example; the first test run node index1.js when using the terminal.
 
 
 
-   ## Author and License
+   ## Author and License:
    The aurthor of this project is;
    [Christine-M9]
    (https://github.com/christine-M9)
