@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SPEED DETECTOR</title>
+</head>
+<body>
+  <script>
+function answer () {
+  let carSpeed = prompt("input car speed here");
+  let points = 12;
+  let limit = 70;
+  let detector = carSpeed-limit;
+  let detector2 = detector / 5;
+  let detector3 = Math.floor(detector2)
+  
+
+    if (carSpeed < limit) {document.write("OK");
+  }
+    else {document.write(detector3);
+    }
+    if (detector3 >= points) {document.write("License suspended");
+  }
+}
+
+
+      answer();
+  </script>
+  
+</body>
+</html>

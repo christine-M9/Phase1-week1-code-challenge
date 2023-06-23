@@ -1,40 +1,52 @@
-// Prompt Input student marks;
-const marks = marks("student marks(0 t0 100:");
 
+//calculating the grade based on the marks
+function calculateGrade(marks) {
+    if (marks >= 0 && marks <= 100) {
+      if (marks > 79) {
+      
+        return "A"; 
 
- //defining marksGrade
-const marksGrade = Number(marks);
-let grade;
-     if (marksGrade > 79 && marksGrade <=100) {
-  grade = "A";
-}
+      }
+       else if (marks >= 60 && marks <= 79) {
 
-      else if (marksGrade >= 60 && marksGrade <= 79) {
-    grade = "B";
+        return "B"; 
+
+      }
+      
+      else if (marks >= 50 && marks <= 59) {
+
+        return "C"; 
+
+      } 
+      else if (marks >= 40 && marks <= 49) {
+
+        return "D"; 
+
+      }
+       else {
+
+        return "E"; 
+
+      }
+    } 
+    else {
+
+      return "Invalid marks."; 
+      
+    }
   }
-
-      else if (marksGrade >= 50 && marksGrade <= 59) {
-    grade = "C";
-  }
-
-     else if (marksGrade >= 40 && marksGrade <= 49) {
-    grade = "D";
-  } 
-
-      else if (marksGrade >= 0 && marksGrade <=39 ) {
-    grade = "E";
-  }
-
-
-  else   { 
-      grade = "Invalid marks"; }
-    
-
-//Output of the grade
-console.log( grade);
-
-
-
-//on the terminal run node index1.js
-
-
+  
+  // Readline module for reading input from the console
+  const readline = require('readline');
+  const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+  });
+  
+  // Prompt the user to enter student marks
+  rl.question('Enter student marks (between 0 and 100): ', (answer) => {
+    const studentMarks = parseFloat(answer); // Parse the input as a floating-point number
+    const grade = calculateGrade(studentMarks); // Call the calculateGrade function to get the grade
+    console.log(`The grade for the student is: ${grade}`); // Display the grade in the console
+    rl.close(); 
+  });

@@ -29,10 +29,17 @@ https://www.aren.co.ke/payroll/taxrates.htmLinks to an external site.
 https://www.kra.go.ke/en/individual/calculate-tax/calculating-tax/payeLinks to an external site.
 
 
+
+   ### Technologies used
+  HTML
+  JavaScript
+
+
    ## Project set-up:
-Solutions to the week one code challenge.They are named index1,index2 and index3 in a Js file.
+Solutions to the week one code challenge.They are named index1,iand index3 in a Js file and index2 in a html file.
 <!-- For each challenge,run node index.js .Remember to include the number responsible for each test. -->
-For example; the first test run node index1.js when using the terminal.
+For example; the first test run node index1.js when using the terminal except challenge 2.
+Challenge 2 html is used.run it on five server or live server and you will be directed.
 
 
 
@@ -41,5 +48,6 @@ For example; the first test run node index1.js when using the terminal.
    [Christine-M9]
    (https://github.com/christine-M9)
 
-
+   ## License
+   The license to this project is MIT license.
    
