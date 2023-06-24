@@ -50,3 +50,5 @@ function calculateGrade(marks) {
     console.log(`The grade for the student is: ${grade}`); // Display the grade in the console
     rl.close(); 
   });
+
+// run node index1.js on the terminal

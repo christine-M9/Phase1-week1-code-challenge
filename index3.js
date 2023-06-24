@@ -1,5 +1,5 @@
 
-        //NHIF
+      // Calculating NHIF
 
 function fuctioncalculateDeduction(grosspay) {
 
@@ -159,7 +159,7 @@ let benefits = parseInt("800")// input benefits
 calculateNetSalary(salary, benefits)
 
  
-
+// run node index3.js on terminal
 
 
     
