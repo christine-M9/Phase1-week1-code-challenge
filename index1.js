@@ -45,9 +45,9 @@ function calculateGrade(marks) {
   
   // Prompt the user to enter student marks
   rl.question('Enter student marks (between 0 and 100): ', (answer) => {
-    const studentMarks = parseFloat(answer); // Parse the input as a floating-point number
-    const grade = calculateGrade(studentMarks); // Call the calculateGrade function to get the grade
-    console.log(`The grade for the student is: ${grade}`); // Display the grade in the console
+    const studentMarks = parseFloat(answer); // Parse the input as a floating-point number word
+    const grade = calculateGrade(studentMarks); // Call the calculateGrade function to get the grade needed
+    console.log(`The student's grade is: ${grade}`); // Display the grade in the console section
     rl.close(); 
   });
 
